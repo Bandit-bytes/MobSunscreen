@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.kreezcraft.mobsunscreen.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityLivingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
