@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "mob-sunscreen",
+	"version": "${version}",
+	"name": "Mob Sunscreen",
+	"description": "Prevent hostile mobs from burning in the sun!",
+	"authors": [
+		"Kreezxil",
+		"Bandit-Bytes"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/mob-sunscreen",
+		"sources": "https://gitlab.com/kreezxil/Mob-Sunscreen",
+		"issues": "https://gitlab.com/kreezxil/Mob-Sunscreen/-/issues/"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kreezcraft.mobsunscreen.MobSunscreenMod"
+		]
+	},
+	"mixins": [
+		"mobsunscreen.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
